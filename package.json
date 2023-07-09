@@ -1,0 +1,31 @@
+{
+  "name": "hr.digital",
+  "version": "1.0.0",
+  "description": "personal & pro web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlanray/harlanray.digital.git"
+  },
+  "keywords": [
+    "personal",
+    "harlanray",
+    "graphic",
+    "design",
+    "software",
+    "developer",
+    "artist"
+  ],
+  "author": "harlan ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harlanray/harlanray.digital/issues"
+  },
+  "homepage": "https://github.com/harlanray/harlanray.digital#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}

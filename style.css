@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    max-width: 70%;
+    /* margin: auto; */
+    
+}
+
+.spotify {
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    /* margin: auto; */
+    
+}
