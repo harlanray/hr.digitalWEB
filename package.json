@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/harlanray/harlanray.digital#readme",
   "dependencies": {
-    "bootstrap": "^3.4.1"
+    "@floating-ui/dom": "^1.4.4",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.7.0"
   }
 }

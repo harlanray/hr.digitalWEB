@@ -3,63 +3,92 @@
     <head>
         <title>H Λ R L Λ N R Λ Y . D I G I T Λ L</title>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" href="images/new23_one-TRANS.png"/>
-        <!-- styling -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="images/new23_YELL.png"/>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+
+        <!-- styling -->
+
+        <script src="https://kit.fontawesome.com/2dbb394cd0.js" crossorigin="anonymous"></script>
+        <script src="index.js" type="module"></script> 
+        <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
     </head>
         
     <body>
+
+        <div class="bg-wrap" alt="BACKGROUND IMAGE OF HARLAN RAY IN GAS MASK">
+            <img class="bg-img" src="images/Like 26_2.jpg">
+        </div>
+
         <div class="container">
-            <div class="row align-self-center">
+            <div class="row">
 
                 <!-- logo column -->
                 
-                    <div class="col-6 logo">
-                        <a href="https://www.instagram.com/hr.harlanray/" target="_blank"><img alt="ENTER" src="images/new23_one-TRANS.png" class="logo"></a>
-                    </div>
+                <div class="col logo">
+                    <a href="https://www.instagram.com/hr.harlanray/" target="_blank"><img alt="ENTER" src="images/new23_one-TRANS.png" class="logo"></a>
+                </div>
 
                 <!-- navbar column -->
-
-                <div class="col-6 navbar">
-                        <p>software dev</p>
-                        <!-- <ul>
-                            <li>GOOGLE v2</li>
-                            <li>NETFLIX v2</li>
-                            <li>THAT'S A WrAPP</li>
-                            <li>SHODO APP</li>
-                            <li>Leads Tracker</li>
-                            <li>Movie Laughs</li>
-                        </ul> -->
-                        <p>graphic artist</p>
-                        <p>film production</p>
-                        <p>contact</p>
-                        <!-- <ul>
-                            <li>GITHUB</li>
-                            <li>CODEWARS</li>
-                            <li>LINKEDIN</li>
-                            <li>RESUME</li>
-                        </ul> -->
+                
+                <div class="col navbar">
+                    <div>
+                      <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseSoftDev" aria-expanded="false" aria-controls="collapseSoftDev">
+                        soft dev
+                      </button>
+                      <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseGraphArt" aria-expanded="false" aria-controls="collapseGraphArt">
+                        grph art
+                      </button>
+                      <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseFilmProd" aria-expanded="false" aria-controls="collapseFilmProd">
+                        flm prod
+                      </button>
+                      <button class="btn btn-light" type="button">
+                        <a href="https://cvws.icloud-content.com/B/AeeMqm8Q-8KSgfBP2CII_GP8xsh8AQuD1I8BeupaR4ppajFa-sTZKPma/HR+Pro+Resume.pdf?o=AscMMcUEIHaU-oqltI5159QMpAb3tbq7jg-j194tVCZe&v=1&x=3&a=CAogBpNLEtvgIdFnOQ-b_DmAezUc1YB21stY26Lnafsq2M8SbRC-tPv_kzEYvpHXgZQxIgEAUgT8xsh8WgTZKPmaaiZWBfusmncs1LCajnlQK8sGlyfgBJSkdInr5p66h3-sXu2AjQ1_d3ImHEIUeGlFhGMgaA1HCR60nboJ9UbmNlaoaNHlj0Mrvb50v_Oooak&e=1688999413&fl=&r=363b0aaa-046a-4641-8646-bc9f8bec3614-1&k=uWQyARaYjf6rQKnVFkHf7w&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=101&s=L6gjuzEvRf97Ruin_L7mt5fSj-M&cd=i" target="_blank">
+                          rsme
+                        </a>
+                      </button>
+                    </div>
+                    <div class="dropdown-menu collapse" id="collapseSoftDev">
+                      <a class="dropdown-item" href="#">GOOGLE v2</a>
+                      <a class="dropdown-item" href="#">NETFLIX v2</a>
+                      <a class="dropdown-item" href="#">THAT'S A WrAPP</a>
+                      <a class="dropdown-item" href="https://shodo-proto.netlify.app/" target="_blank">SHODO APP</a>
+                      <a class="dropdown-item" href="#">LEADS TRACKER</a>
+                      <a class="dropdown-item" href="https://comfy-strudel-262d5d.netlify.app/" target="_blank">MOVIE LAUGHS</a>
+                    </div>
+                    <div class="dropdown-menu collapse" id="collapseGraphArt">
+                      <!-- Dropdown menu for graph art -->
+                    </div>
+                    <div class="dropdown-menu collapse" id="collapseFilmProd">
+                      <!-- Dropdown menu for film production -->
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
+              </div>
+              </div>
 
-        <footer>
-            
+        <!-- <div class="container-fluid">
+            <footer class="spotify-footer">
                 <div class="row spotify">
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2sW1inEwuUUdcCxwxbR0yl?utm_source=generator" width="75%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/2sW1inEwuUUdcCxwxbR0yl?utm_source=generator" width="65%" height="460" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
-            
-        </footer>
+            </footer>
+        </div> -->
 
-        <script src="index.js" type="module"></script> 
-        <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>  
-        
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <!-- JS scripts of various modules -->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     </body>
 </html>
+
+
+
+    <!-- <a class="dropdown-item" href="https://github.com/harlanray" target="_blank">GITHUB</a>
+    <a class="dropdown-item" href="https://www.codewars.com/users/harlanray" target="_blank">CODEWARS</a>
+    <a class="dropdown-item" href="https://www.linkedin.com/in/harlanray/" target="_blank">LINKEDIN</a> -->
